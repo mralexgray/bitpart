@@ -1,0 +1,8 @@
+{
+  "name": "bitpart",
+  "version": "1.0.0",
+  "description": "Bitwise permissions for user roles.",
+  "main": "bitpart.js",
+  "author": "Alex Gray <alex@mrgray.com> (https://github.com/mralexgray)",
+  "license": "MIT"
+}
