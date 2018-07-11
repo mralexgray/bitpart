@@ -1,3 +1,3 @@
 
 require('coffeescript/register')
-module.exports = require('./src/roles')
+module.exports = require('./readme.coffee.md')

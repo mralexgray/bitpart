@@ -4,5 +4,22 @@
   "description": "Bitwise permissions for user roles.",
   "main": "bitpart.js",
   "author": "Alex Gray <alex@mrgray.com> (https://github.com/mralexgray)",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "docs.off": "npm install && gen-docs",
+    "prepare.off": "coffee -o lib -cb src/*.coffee"
+  },
+  "autogenerate-readme": {
+    "srcFiles": [
+      "./lib/**/*.js"
+    ]
+  },
+  "devDependencies.off": {
+    "autogenerate-readme": "^1.0.1"
+  },
+  "dependencies": {
+    "cson": "^5.1.0",
+    "lodash": "^4.17.10",
+    "coffeescript": "latest"
+  }
 }
