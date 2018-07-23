@@ -1,0 +1,11 @@
+roles:
+  guest:          0
+  user:           1
+  author:        11
+  moderator:    101
+  admin:       1000
+
+users:
+  jane:   ['user']
+  jack:   ['moderator']
+  jesus:  ['admin','user']
