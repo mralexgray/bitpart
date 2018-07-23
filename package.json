@@ -6,6 +6,7 @@
   "author": "Alex Gray <alex@mrgray.com> (https://github.com/mralexgray)",
   "license": "MIT",
   "scripts": {
+    "test": "mocha --require coffeescript/register --require should tests.litcoffee",
     "docs.off": "npm install && gen-docs",
     "prepare.off": "coffee -o lib -cb src/*.coffee"
   },
@@ -14,8 +15,9 @@
       "./lib/**/*.js"
     ]
   },
-  "devDependencies.off": {
-    "autogenerate-readme": "^1.0.1"
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "should": "*"
   },
   "dependencies": {
     "cson": "^5.1.0",

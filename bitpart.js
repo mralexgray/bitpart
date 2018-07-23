@@ -1,3 +1,3 @@
 
 require('coffeescript/register')
-module.exports = require('./readme.coffee.md')
+module.exports = require('./README')
